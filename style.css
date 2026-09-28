@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f4f7;
+    color: #222;
+}
+
+.container {
+    width: 95%;
+    max-width: 1200px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+}
+
+/* College Header */
+
+.header {
+    position: relative;
+    text-align: center;
+    border-bottom: 2px solid #222;
+    padding: 20px 160px 25px;
+    min-height: 230px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 25px;
+}
+
+.header h2 {
+    margin: 8px 0;
+    font-size: 20px;
+}
+
+.header p {
+    margin: 5px 0;
+}
+
+/* Logos */
+
+.college-logo {
+    position: absolute;
+    top: 45px;
+    width: 160px;
+    height: 140px;
+    object-fit: contain;
+}
+.logo-left {
+    left: 25px;
+}
+
+.logo-right {
+    right: 25px;
+}
+
+/* Practical Record Title */
+
+.record-title {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.record-title h2 {
+    margin: 5px;
+    letter-spacing: 2px;
+}
+
+.record-title h3 {
+    margin: 8px;
+}
